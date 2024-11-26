@@ -4,9 +4,9 @@ const filesToCache = [
     "/index.html",
     "/manifest.json",
     "/service-worker.js",
-    "/icons/icon-192x192.png",
-    "/icons/icon-512x512.png",
-    "/csvjson.json", // Đường dẫn đến tệp csvjson.json
+    "/thi/icons/icon-192x192.png",
+    "/thi/icons/icon-512x512.png",
+    "/thi/csvjson.json", // Đường dẫn đến tệp csvjson.json
 
 ];
 
