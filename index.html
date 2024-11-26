@@ -54,6 +54,11 @@
 
     <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2/dist/tesseract.min.js"></script>
     <script>
+         if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("/service-worker.js")
+                .then(() => console.log("Service Worker đăng ký thành công"))
+                .catch(error => console.log("Đăng ký Service Worker thất bại:", error));
+        }
         let data = []; // Dữ liệu câu hỏi và câu trả lời sẽ được tải từ csvjson.json
 
         // Tải dữ liệu từ file JSON trên GitHub
