@@ -69,38 +69,66 @@
             }
         }
 
-        // Tìm kiếm bằng từ khóa
-        function search() {
-            const searchInput = document.getElementById("searchInput").value.toLowerCase();
-            const resultsDiv = document.getElementById("results");
+       // Tìm kiếm và hiển thị kết quả
+function search() {
+    const searchInput = document.getElementById("searchInput").value.toLowerCase();
+    const resultsDiv = document.getElementById("results");
 
-            // Xóa kết quả cũ
-            resultsDiv.innerHTML = "";
+    // Xóa kết quả cũ
+    resultsDiv.innerHTML = "";
 
-            // Lọc dữ liệu
-            const filteredData = data.filter(item =>
-                item.quest.toLowerCase().includes(searchInput)
-            );
+    // Thực hiện tìm kiếm gần đúng
+    const results = fuzzySearch(searchInput, data);
 
-            if (filteredData.length > 0) {
-                filteredData.forEach(item => {
-                    const resultDiv = document.createElement("div");
-                    resultDiv.classList.add("result");
+    if (results.length > 0) {
+        results.forEach(item => {
+            const resultDiv = document.createElement("div");
+            resultDiv.classList.add("result");
 
-                    const question = document.createElement("p");
-                    question.innerHTML = `<strong>Câu hỏi:</strong> ${item.quest}`;
-                    resultDiv.appendChild(question);
+            const question = document.createElement("p");
+            question.innerHTML = `<strong>Câu hỏi:</strong> ${item.quest}`;
+            resultDiv.appendChild(question);
 
-                    const answer = document.createElement("p");
-                    answer.innerHTML = `<strong>Đáp án:</strong> ${item.answer}`;
-                    resultDiv.appendChild(answer);
+            const answer = document.createElement("p");
+            answer.innerHTML = `<strong>Đáp án:</strong> ${item.answer}`;
+            resultDiv.appendChild(answer);
 
-                    resultsDiv.appendChild(resultDiv);
-                });
-            } else {
-                resultsDiv.innerHTML = "<p>Không tìm thấy kết quả phù hợp.</p>";
-            }
-        }
+            const similarity = document.createElement("p");
+            similarity.innerHTML = `<strong>Độ tương đồng:</strong> ${Math.round(item.similarity * 100)}%`;
+            resultDiv.appendChild(similarity);
+
+            resultsDiv.appendChild(resultDiv);
+        });
+    } else {
+        resultsDiv.innerHTML = "<p>Không tìm thấy kết quả phù hợp.</p>";
+    }
+}
+// Tìm kiếm gần đúng
+function fuzzySearch(query, data) {
+    const queryWords = query.toLowerCase().split(" ");
+    return data
+        .map(item => {
+            const questionWords = item.quest.toLowerCase().split(" ");
+            let matchCount = 0;
+
+            // Đếm số từ trong từ khóa khớp với câu hỏi
+            queryWords.forEach(word => {
+                if (questionWords.includes(word)) {
+                    matchCount++;
+                }
+            });
+
+            // Tính toán độ tương đồng dựa trên số từ khớp
+            const similarity = matchCount / queryWords.length;
+
+            return {
+                ...item,
+                similarity
+            };
+        })
+        .filter(item => item.similarity > 0) // Chỉ giữ các kết quả có khớp
+        .sort((a, b) => b.similarity - a.similarity); // Sắp xếp theo độ tương đồng
+}
 
         // Hiển thị hộp chọn file ảnh
         function openFileInput() {
