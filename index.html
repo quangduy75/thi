@@ -27,7 +27,7 @@
         button:hover {
             background-color: #0056b3;
         }
-        .result {
+        .result, .recognized-text {
             margin-top: 20px;
             padding: 10px;
             border: 1px solid #ddd;
@@ -45,6 +45,10 @@
     <button onclick="search()">Tìm kiếm</button>
     <button onclick="openFileInput()">Tìm bằng hình ảnh</button>
     <p id="status" class="status"></p>
+    <div id="recognizedTextContainer" class="recognized-text">
+        <h2>Văn bản nhận diện được:</h2>
+        <p id="recognizedText"></p>
+    </div>
     <div id="results"></div>
     <input type="file" id="imageInput" accept="image/*" style="display: none;" onchange="searchByImage()" />
 
@@ -109,6 +113,7 @@
             const file = fileInput.files[0];
             const status = document.getElementById("status");
             const resultsDiv = document.getElementById("results");
+            const recognizedTextElement = document.getElementById("recognizedText");
 
             if (!file) return;
 
@@ -123,7 +128,10 @@
                 }
             }).then(({ data: ocrData }) => {
                 status.textContent = "Hoàn thành nhận diện!";
-                const recognizedText = ocrData.text;
+                const recognizedText = ocrData.text.trim();
+
+                // Hiển thị văn bản nhận diện được
+                recognizedTextElement.textContent = recognizedText;
 
                 // Tìm kiếm trong JSON
                 const filteredData = data.filter(item =>
