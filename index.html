@@ -96,7 +96,7 @@
                 .sort((a, b) => b.similarity - a.similarity); // Sắp xếp theo độ tương đồng
         }
 
-        // Tìm kiếm bằng từ khóa
+        // Tìm kiếm và hiển thị kết quả
         function search() {
             const searchInput = document.getElementById("searchInput").value.toLowerCase();
             const resultsDiv = document.getElementById("results");
@@ -141,8 +141,8 @@
             const fileInput = document.getElementById("imageInput");
             const file = fileInput.files[0];
             const status = document.getElementById("status");
-            const resultsDiv = document.getElementById("results");
             const recognizedTextElement = document.getElementById("recognizedText");
+            const searchInput = document.getElementById("searchInput");
 
             if (!file) return;
 
@@ -162,33 +162,11 @@
                 // Hiển thị văn bản nhận diện được
                 recognizedTextElement.textContent = recognizedText;
 
-                // Tìm kiếm gần đúng trong JSON
-                const results = fuzzySearch(recognizedText, data);
+                // Điền văn bản nhận diện vào ô tìm kiếm
+                searchInput.value = recognizedText;
 
-                resultsDiv.innerHTML = ""; // Xóa kết quả cũ
-
-                if (results.length > 0) {
-                    results.forEach(item => {
-                        const resultDiv = document.createElement("div");
-                        resultDiv.classList.add("result");
-
-                        const question = document.createElement("p");
-                        question.innerHTML = `<strong>Câu hỏi:</strong> ${item.quest}`;
-                        resultDiv.appendChild(question);
-
-                        const answer = document.createElement("p");
-                        answer.innerHTML = `<strong>Đáp án:</strong> ${item.answer}`;
-                        resultDiv.appendChild(answer);
-
-                        const similarity = document.createElement("p");
-                        similarity.innerHTML = `<strong>Độ tương đồng:</strong> ${Math.round(item.similarity * 100)}%`;
-                        resultDiv.appendChild(similarity);
-
-                        resultsDiv.appendChild(resultDiv);
-                    });
-                } else {
-                    resultsDiv.innerHTML = "<p>Không tìm thấy kết quả phù hợp.</p>";
-                }
+                // Thực hiện tìm kiếm
+                search();
             }).catch(error => {
                 console.error("Lỗi khi nhận diện hình ảnh:", error);
                 status.textContent = "Có lỗi xảy ra khi nhận diện văn bản.";
