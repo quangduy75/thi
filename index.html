@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -115,7 +115,7 @@
             // Hiển thị trạng thái OCR
             status.textContent = "Đang nhận diện văn bản từ hình ảnh...";
 
-            Tesseract.recognize(file, 'eng', {
+            Tesseract.recognize(file, 'vie', {
                 logger: (m) => {
                     if (m.status === "recognizing text") {
                         status.textContent = `Đang nhận diện: ${Math.round(m.progress * 100)}%`;
