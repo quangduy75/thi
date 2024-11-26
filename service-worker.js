@@ -6,6 +6,7 @@ const filesToCache = [
     "/service-worker.js",
     "/icons/icon-192x192.png",
     "/icons/icon-512x512.png",
+    "/csvjson.json", // Đường dẫn đến tệp csvjson.json
     "/style.css", // Nếu có tệp CSS
     "/script.js", // Nếu có tệp JS
 ];
