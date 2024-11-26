@@ -1,14 +1,13 @@
 const cacheName = "pwa-search-cache-v1";
 const filesToCache = [
-    "/",
-    "/index.html",
-    "/manifest.json",
-    "/service-worker.js",
+    "/thi/",
+    "/thi/index.html",
+    "/thi/manifest.json",
+    "/thi/service-worker.js",
     "/thi/icons/icon-192x192.png",
-    "/thi/icons/icon-512x512.png",
-    "/thi/csvjson.json", // Đường dẫn đến tệp csvjson.json
-
+    "/thi/icons/icon-512x512.png"
 ];
+
 
 self.addEventListener("install", event => {
     event.waitUntil(
