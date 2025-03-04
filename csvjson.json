@@ -238,5 +238,206 @@
     {
         "quest": "Hãy trình bày yêu cầu đối với tạo vùng làm việc an toàn? (2 ý)",
         "answer": "Đáp án:\n- Không được ảnh hưởng đến vận hành của các phần có điện gần vùng làm việc an toàn.\n- Không cản trở hoặc gây khó khăn cho Đơn vị công tác trong việc thoát nạn khi xảy ra tai nạn, sự cố."
+    },
+    {
+        "quest": "Khi dây dẫn điện đứt, rơi xuống đất hoặc còn lơ lửng, phải có biện pháp để không cho mọi người đến gần trong phạm vi?",
+        "answer": "Dưới 10 m."
+    },
+    {
+        "quest": "Khi tiến hành đo nối đất đường dây đang vận hành, phải đảm bảo các điều kiện nào sau đây?",
+        "answer": "Trời không có mưa, giông, sét. Nếu đường dây có bảo vệ bằng dây chống sét thì khi tháo dây nối đất phải đeo găng tay cách điện, hoặc trước khi tháo, đấu dây nối đất ở cột phải nối tắt tạm thời đầu dây nối đất đó vào một cọc nối đất bằng một đoạn dây dẫn có tiết diện tối thiểu 10 mm2."
+    },
+    {
+        "quest": "Khi không có rào chắn tạm thời, khoảng cách an toàn tối thiểu đến phần mang điện đối với cấp điện áp 22 kV là?",
+        "answer": "1 m."
+    },
+    {
+        "quest": "Sau khi hoàn thành công việc, thời gian lưu giữ lệnh công tác phải được ít nhất bao lâu?",
+        "answer": "2 tháng."
+    },
+    {
+        "quest": "Khi có rào chắn tạm thời, khoảng cách an toàn nhỏ nhất từ rào chắn đến phần mang điện đối với cấp điện áp trên 15 kV đến 35 kV là?",
+        "answer": "0,6 m."
+    },
+    {
+        "quest": "Khoảng cách an toàn phóng điện từ cấp điện áp 1 kV đến 35 kV đối với thiết bị, dụng cụ, phương tiện (trừ xe chuyên dùng cho công tác sửa chữa điện) nhỏ nhất là bao nhiêu?",
+        "answer": "4,0 m."
+    },
+    {
+        "quest": "Khi chuẩn bị trèo lên cột làm việc, thực hiện các quy định nào sau đây là đúng?",
+        "answer": "Kiểm tra sơ bộ tình trạng của móng cột và cột."
+    },
+    {
+        "quest": "Trước khi trèo lên giá đỡ, cột; nhân viên đơn vị công tác phải kiểm tra sơ bộ nội dung nào?",
+        "answer": "Cả 3 đáp án đều đúng"
+    },
+    {
+        "quest": "Khi nối thang di động phải thực hiện như thế nào cho đúng?",
+        "answer": "Dùng đai bằng sắt và bắt bu-lông. Dùng nẹp bằng gỗ, tre cứng ốp hai đầu chỗ nối dài ít nhất 1,0 m và dùng dây thép để néo xoắn thật chặt, đảm bảo không lung lay, xộc xệch."
+    },
+    {
+        "quest": "Có bao nhiêu phương pháp móc dây choàng của dây đeo an toàn loại (3 móc) vào cột?",
+        "answer": "05 phương pháp."
+    },
+    {
+        "quest": "Nghiêm cấm làm việc trên cao trong trường hợp nào sau đây?",
+        "answer": "Người đang ốm đau hoặc đã sử dụng các chất kích thích, đồ uống có cồn."
+    },
+    {
+        "quest": "Khi làm việc trên cao, được phép thực hiện những việc gì sau đây?",
+        "answer": "Đưa dụng cụ, vật liệu lên cao hoặc từ trên cao xuống bằng cách tung, ném."
+    },
+    {
+        "quest": "Khi làm việc trên cột điện, hành vi nào sau đây là đúng?",
+        "answer": "Luôn luôn sử dụng dây đeo an toàn. Dây đeo an toàn phải mắc vào những vật cố định chắc chắn. Không sử dụng điện thoại di động trong quá trình lên hoặc xuống."
+    },
+    {
+        "quest": "Khi công tác trên đường dây đã cắt điện phải tuân thủ điều nào?",
+        "answer": "Cả 3 đáp án đều đúng"
+    },
+    {
+        "quest": "Trường hợp nào sau đây cấm làm việc trên đường dây đã cắt điện?",
+        "answer": "Cả 3 đáp án đều đúng"
+    },
+    {
+        "quest": "Khi chặt cây ở gần đường dây, phải thực hiện như thế nào là đúng quy định?",
+        "answer": "Dùng dây để buộc chuôi dụng cụ (dao, cưa,…) với cổ tay."
+    },
+    {
+        "quest": "Sử dụng dây đeo an toàn trong trường hợp nào sau đây là sai?",
+        "answer": "Khi leo từ cột xuống: cho phép không quàng dây choàng vào cột."
+    },
+    {
+        "quest": "Cấm làm việc trên đường dây điện trên không khi?",
+        "answer": "Bắt đầu có gió cấp 6 trở lên hoặc có mưa nặng hạt, nước chảy thành dòng trên người và thiết bị điện."
+    },
+    {
+        "quest": "Cấm chặt (cưa) cây ở gần đường dây điện trên không khi có gió?",
+        "answer": "Gió cấp 4 trở lên."
+    },
+    {
+        "quest": "Hành vi nào bị cấm khi làm việc trên cao?",
+        "answer": "Leo trèo, đi lại tùy tiện (như trên mặt tường, mặt dầm, giàn và các kết cấu lắp ghép khác, leo trèo qua lan can an toàn, leo trèo theo giàn giáo, đu bám vào dây treo để lên và xuống…). Đưa dụng cụ, vật liệu lên cao hoặc từ trên cao xuống bằng cách tung, ném."
+    },
+    {
+        "quest": "Khi sử dụng thiết bị, dụng cụ, phương tiện (trừ phương tiện phục vụ sửa chữa nóng) làm việc trong hành lang bảo vệ an toàn lưới điện cao áp trên 1 đến 35 kV phải đảm bảo khoảng cách an toàn phóng điện là bao nhiêu mét?",
+        "answer": "4 m."
+    },
+    {
+        "quest": "Biện pháp an toàn nào sau đây khi chặt, tỉa cây vi phạm hành lang bảo vệ an toàn đường dây đang có điện là đúng?",
+        "answer": "Phải cắt điện đường dây điện trên không khi chặt cây, chặt cành có khả năng đổ, rơi vào đường dây điện trên không. Nếu không cắt điện thì phải có biện pháp để hạ cây, cành an toàn."
+    },
+    {
+        "quest": "Nhóm công tác được Đội phó phân công đi đo tiếp địa đường dây trung áp 22 kV đang vận hành có bảo vệ dây chống sét, trong điều kiện thời tiết khu vực thực hiện công việc đang có mưa. Nhóm công nhân phải làm gì?",
+        "answer": "Từ chối và giải thích lý do cho người phân công công việc."
+    },
+    {
+        "quest": "Đơn vị công tác làm việc trên đoạn đường dây điện trên không 22 kV đã cắt điện nhưng có chiều dài 2,1 km đi song song và cách đường dây điện trên không 220 kV đang vận hành 140 m. Trong trường hợp này, khoảng cách giữa 2 bộ tiếp địa xa nhất theo quy định là bao nhiêu?",
+        "answer": "Nhỏ hơn hoặc bằng 500 m."
+    },
+    {
+        "quest": "Các công việc cho phép 01 người tiến hành làm công việc ở trên đường dây điện trên không cao áp đã cắt điện?",
+        "answer": "Cho phép tiến hành các công việc như treo (in) biển báo, sửa chân cột, đánh số cột,… mà không trèo lên cột cao quá 2,0 m và không sửa chữa các cấu kiện của cột."
+    },
+    {
+        "quest": "Khi sơn xà và phần trên của cột đường dây cao áp có điện thì được phép?",
+        "answer": "Cấm đứng thẳng để di chuyển người dọc theo xà. Nếu phía trên có dây dẫn, dây chống sét thì phải đảm bảo khoảng cách an toàn đến các phần mang điện khác quy định. Khi sơn, tránh để sơn rơi lên dây dẫn và sứ. Chổi sơn phải làm bằng cán gỗ hoặc vật liệu cách điện không dài quá 10 cm."
+    },
+    {
+        "quest": "Làm việc với đường dây điện trên không khi có giông bão hoặc sắp có giông bão người chỉ huy trực tiếp phải?",
+        "answer": "Phải cho Nhân viên đơn vị công tác ra khỏi khu vực nguy hiểm có thể xảy ra do đứt dây hoặc đổ, gẫy cột, lũ quét, lở đất."
+    },
+    {
+        "quest": "Các mối nguy hiểm khi làm việc trên đường dây cao áp được bố trí cắt điện theo phân đoạn, đi chung cột hoặc giao chéo với đường dây đang vận hành?",
+        "answer": "Cả 3 đáp án đều đúng"
+    },
+    {
+        "quest": "Biện pháp an toàn khi kiểm tra đường dây đang vận hành nào sau đây là đúng?",
+        "answer": "Đi kiểm tra đường dây điện trên không, thiết bị điện bằng mắt thì được phép làm việc 01 người. Phải xem như đường dây điện trên không đang có điện, kiểm tra tiến hành trên mặt đất, ban đêm phải có đèn soi, chú ý dây dẫn bị chùng võng và đứt, rơi."
+    },
+    {
+        "quest": "Biện pháp an toàn khi chặt, tỉa cây vi phạm hành lang bảo vệ an toàn đường dây đang có điện.",
+        "answer": "Cả 3 đáp án đều đúng"
+    },
+    {
+        "quest": "Cho phép leo lên cột của đường dây 110 kV đang vận hành để kiểm tra sứ, dây dẫn, dây chống sét, sơn xà… với điều kiện khoảng cách nằm ngang nhỏ nhất từ mép ngoài cùng của thân cột đến dây dẫn là bao nhiêu?",
+        "answer": "1,5 m."
+    },
+    {
+        "quest": "Khi làm việc vệ sinh cách điện đường dây dẫn điện trên không cao áp đang vận hành điều kiện nào sau đây là đúng quy định?",
+        "answer": "Cả 3 đáp án đều đúng"
+    },
+    {
+        "quest": "Các mối nguy khi làm việc với thiết bị nâng?",
+        "answer": "Cả 3 đáp án đều đúng"
+    },
+    {
+        "quest": "Khi sơn xà và phần trên cột có đường dây đang vận hành, việc làm nào sau đây đúng quy định an toàn?",
+        "answer": "Dùng chổi sơn có cán bằng gỗ hoặc vật liệu cách điện không dài quá 10 cm; cấm đứng thẳng người để di chuyển dọc theo xà."
+    },
+    {
+        "quest": "Khi làm việc trên đường dây 22 kV đang vận hành, nhân viên đơn vị công tác sử dụng các trang bị, dụng cụ cho làm việc có điện, thì khoảng cách cho phép nhỏ nhất đối với thân thể của nhân viên đơn vị công tác đến dây dẫn điện phải đảm bảo?",
+        "answer": "0,6 m."
+    },
+    {
+        "quest": "Khi làm công việc tại đường dây cao áp đang vận hành, người có bậc 3 an toàn điện được phép làm việc một mình những công việc nào sau đây?",
+        "answer": "Công việc tại móng cột, trèo lên cột dưới 2,0m, không tháo dỡ cấu kiện cột."
+    },
+    {
+        "quest": "Sự khác nhau cơ bản giữa phiếu công tác và lệnh công tác khi thực hiện là?",
+        "answer": "Phiếu công tác cấp cho các công việc yêu cầu phải thực hiện các biện pháp kỹ thuật chuẩn bị vị trí làm việc, lệnh công tác thì không cần."
+    },
+    {
+        "quest": "Khi vệ sinh cách điện từ 35 kV trở xuống (đang mang điện) bằng dụng cụ chuyên dùng đã được kiểm tra và thử nghiệm định kỳ theo đúng quy định hiện hành, đơn vị công tác phải tuân thủ quy định nào?",
+        "answer": "Phải đảm bảo khoảng cách an toàn theo quy định."
+    },
+    {
+        "quest": "Dùng ampe kìm để đo dòng điện ở thiết bị điện cao áp trong trường hợp nào sau đây là đúng?",
+        "answer": "Chỉ được dùng ampe kìm để đo dòng điện ở thiết bị điện cao áp từ 35 kV trở xuống. Phần cách điện khi sử dụng ampe kìm đo ở thiết bị điện cao áp phải trong thời hạn thử nghiệm. Không sử dụng ampe kìm đo nếu phần cách điện ở phía miệng kìm bị nứt, vỡ."
+    },
+    {
+        "quest": "Phối hợp an toàn nhiều đơn vị công tác khi làm việc trên đường dây dẫn điện đã cắt điện hoặc có điện.",
+        "answer": "Cả 3 đáp án đều đúng"
+    },
+    {
+        "quest": "Người chỉ đạo chung khi công việc do nhiều đơn vị công tác của cùng một tổ chức hoạt động điện lực thực hiện được gọi là gì?",
+        "answer": "Người lãnh đạo công việc."
+    },
+    {
+        "quest": "Khi làm việc tại một công trình điện lực có nhiều Đơn vị công tác khác nhau thì việc thực hiện biện pháp kỹ thuật an toàn tại nơi làm việc của các đơn vị công tác được thực hiện như thế nào?",
+        "answer": "- Mỗi Đơn vị công tác phải thực hiện biện pháp kỹ thuật an toàn riêng biệt.\n- Giữa các Đơn vị công tác phải có dấu hiệu nhận biết để phân biệt người của từng đơn vị theo phạm vi làm việc."
+    },
+    {
+        "quest": "Yêu cầu đối với người “Có kỹ năng phối với các đơn vị khác, lãnh đạo công việc, tổ chức tiến hành các biện pháp an toàn và kiểm tra theo dõi thực hiện công việc” phải có bậc an toàn điện bao nhiêu?",
+        "answer": "5/5."
+    },
+    {
+        "quest": "Các chức danh nào sau đây yêu cầu có bậc an toàn điện bắt buộc là 5/5?",
+        "answer": "Người Lãnh đạo công việc."
+    },
+    {
+        "quest": "Trách nhiệm của Người lãnh đạo công việc?",
+        "answer": "Chịu trách nhiệm phối hợp hoạt động của các Đơn vị công tác, khi công việc do nhiều Đơn vị công tác thực hiện theo các Phiếu công tác khác nhau cần có sự phối hợp để đảm bảo an toàn."
+    },
+    {
+        "quest": "Thực hiện biện pháp kỹ thuật an toàn khi nhiều Đơn vị công tác cùng làm việc trên một công trình điện lực?",
+        "answer": "Khi làm việc tại một công trình điện lực có nhiều Đơn vị công tác khác nhau thì mỗi Đơn vị công tác phải thực hiện biện pháp kỹ thuật an toàn riêng biệt. Giữa các Đơn vị công tác phải có dấu hiệu nhận biết để phân biệt người của từng đơn vị theo phạm vi làm việc."
+    },
+    {
+        "quest": "Trường hợp thiết bị hoặc nơi làm việc do từ 02 đơn vị quản lý vận hành trở lên thì Phiếu công tác được cấp theo nguyên tắc nào?",
+        "answer": "Nếu công việc trực tiếp làm ở đường dây, thiết bị điện do đơn vị nào quản lý vận hành thì đơn vị đó chịu trách nhiệm cấp phiếu công tác/lệnh công tác. Đơn vị cấp phiếu công tác phải ghi đầy đủ các biện pháp an toàn do Đơn vị quản lý vận hành khác thực hiện nếu công tác có liên quan nhiều đơn vị Quản lý vận hành."
+    },
+    {
+        "quest": "Khi nhiều Đơn vị công tác cùng làm việc trên một công trình điện lực thực hiện các biện pháp an toàn?",
+        "answer": "Khi làm việc tại một công trình điện lực có nhiều Đơn vị công tác khác nhau thì mỗi Đơn vị công tác phải thực hiện biện pháp kỹ thuật an toàn riêng biệt. Giữa các Đơn vị công tác phải có dấu hiệu nhận biết để phân biệt người của từng đơn vị theo phạm vi làm việc."
+    },
+    {
+        "quest": "Khi tiến hành công tác trên đường dây điện trên không vượt đường sắt, đường bộ, đường sông phải áp dụng các biện pháp nào sau đây?",
+        "answer": "Giao chéo với đường sắt, đường sông phải báo trước cho cơ quan quản lý đường sắt, đường sông và mời đại diện của họ tới điểm công tác để phối hợp, đảm bảo an toàn cho hai bên và cộng đồng. Giao chéo với đường bộ phải cử Người cảnh giới cầm cờ đỏ (hoặc đèn đỏ nếu là ban đêm), đứng cách nơi làm việc với khoảng cách hợp lý về hai phía để báo hiệu. Nếu có nhiều xe qua lại thì phải bắc giàn giáo."
+    },
+    {
+        "quest": "Có được sử dụng cưa máy và sào cách điện để cưa cây gần đường dây trên không không?",
+        "answer": "Được phép, người thực hiện phải được huấn luyện thành thạo quy trình sử dụng cưa máy, sào cắt cây. Khi cưa cây phải có biện pháp tránh cưa rơi xuống đất gây nguy hiểm cho người bên dưới."
     }
+
 ]
