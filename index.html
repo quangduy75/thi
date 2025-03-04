@@ -150,41 +150,56 @@
         }
 
         // Tìm kiếm bằng hình ảnh
-        function searchByImage() {
-            const fileInput = document.getElementById("imageInput");
-            const file = fileInput.files[0];
-            const status = document.getElementById("status");
-            const recognizedTextElement = document.getElementById("recognizedText");
-            const searchInput = document.getElementById("searchInput");
+      async function searchByImage() {
+    const fileInput = document.getElementById("imageInput");
+    const file = fileInput.files[0];
+    const status = document.getElementById("status");
 
-            if (!file) return;
+    if (!file) return;
+    if (!file.type.startsWith("image/")) {
+        status.textContent = "Vui lòng chọn một tệp hình ảnh hợp lệ!";
+        return;
+    }
 
-            // Hiển thị trạng thái OCR
-            status.textContent = "Đang nhận diện văn bản từ hình ảnh...";
+    status.textContent = "Đang tải ảnh lên để nhận diện văn bản...";
 
-            Tesseract.recognize(file, 'vie', {
-                logger: (m) => {
-                    if (m.status === "recognizing text") {
-                        status.textContent = `Đang nhận diện: ${Math.round(m.progress * 100)}%`;
-                    }
-                }
-            }).then(({ data: ocrData }) => {
-                status.textContent = "Hoàn thành nhận diện!";
-                const recognizedText = ocrData.text.trim();
+    try {
+        const formData = new FormData();
+        formData.append("image", file);
 
-                // Hiển thị văn bản nhận diện được
-                recognizedTextElement.textContent = recognizedText;
+        const response = await fetch("https://api.deepseek.com/v1/ocr", {
+            method: "POST",
+            headers: {
+                "Authorization": "sk-637fb74c91574d09bfeea24249d56a4d" // Thay YOUR_DEEPSEEK_API_KEY bằng API Key của bạn
+            },
+            body: formData
+        });
 
-                // Điền văn bản nhận diện vào ô tìm kiếm
-                searchInput.value = recognizedText;
+        if (!response.ok) throw new Error(`Lỗi HTTP: ${response.status}`);
 
-                // Thực hiện tìm kiếm
-                search();
-            }).catch(error => {
-                console.error("Lỗi khi nhận diện hình ảnh:", error);
-                status.textContent = "Có lỗi xảy ra khi nhận diện văn bản.";
-            });
+        const result = await response.json();
+
+        if (!result.text) {
+            status.textContent = "Không tìm thấy văn bản trong ảnh.";
+            return;
         }
+
+        // Hiển thị văn bản nhận diện được
+        document.getElementById("recognizedText").textContent = result.text;
+        
+        // Tự động nhập văn bản vào ô tìm kiếm
+        document.getElementById("searchInput").value = result.text;
+
+        // Thực hiện tìm kiếm
+        search();
+
+        status.textContent = "Nhận diện thành công!";
+    } catch (error) {
+        console.error("Lỗi DeepSeek API:", error);
+        status.textContent = "Lỗi khi nhận diện hình ảnh.";
+    }
+}
+
 
         // Tải dữ liệu khi tải trang
         loadData();
