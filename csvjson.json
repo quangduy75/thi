@@ -438,6 +438,206 @@
     {
         "quest": "Có được sử dụng cưa máy và sào cách điện để cưa cây gần đường dây trên không không?",
         "answer": "Được phép, người thực hiện phải được huấn luyện thành thạo quy trình sử dụng cưa máy, sào cắt cây. Khi cưa cây phải có biện pháp tránh cưa rơi xuống đất gây nguy hiểm cho người bên dưới."
+    },
+    {
+        "quest": "Khi không có rào chắn tạm thời, khoảng cách an toàn tối thiểu đến phần mang điện đối với cấp điện áp 22kV là?",
+        "answer": "1 m."
+    },
+    {
+        "quest": "Khi được giao thực hiện công việc mà thấy nguy hiểm, thiếu an toàn, nhân viên đơn vị công tác?",
+        "answer": "Được phép ngừng ngay công việc và báo cáo Người chỉ huy trực tiếp, nếu không được chấp thuận thì báo cáo lên Cấp có thẩm quyền để giải quyết."
+    },
+    {
+        "quest": "Những mệnh lệnh không đúng Quy trình An toàn điện và các quy trình có liên quan khác, có nguy cơ mất an toàn cho người hoặc thiết bị điện thì người nhận lệnh có quyền?",
+        "answer": "Không chấp hành, nếu người ra lệnh không chấp thuận thì người nhận lệnh được quyền báo cáo với cấp trên trực tiếp của người ra lệnh và/hoặc cấp có thẩm quyền."
+    },
+    {
+        "quest": "Để đảm bảo an toàn điện thì các công việc khi tiến hành trên đường dây, thiết bị điện, ở gần hoặc liên quan đến đường dây, thiết bị điện đang mang điện, bao gồm cả vùng bị ảnh hưởng nguy hiểm bởi cảm ứng điện, đều phải thực hiện theo?",
+        "answer": "Phiếu công tác hoặc lệnh công tác."
+    },
+    {
+        "quest": "Khi nghỉ giải lao, các nhân viên của đơn vị công tác vẫn phải chịu sự giám sát của ai?",
+        "answer": "Người chỉ huy trực tiếp."
+    },
+    {
+        "quest": "Trong điều kiện bình thường, giá trị điện áp (U) xoay chiều tối thiểu là bao nhiêu thì gây nguy hiểm đến tính mạng khi con người tiếp xúc trực tiếp?",
+        "answer": "> 42 V"
+    },
+    {
+        "quest": "Theo Quy trình An toàn điện, điện cao áp được quy ước?",
+        "answer": "Từ 1.000 V trở lên."
+    },
+    {
+        "quest": "Hình thức kiểm tra nhân viên mới được tuyển dụng sau khi kết thúc công tác đào tạo - thực tập?",
+        "answer": "Kiểm tra lý thuyết và thực hành."
+    },
+    {
+        "quest": "Theo quy trình an toàn điện, \"Phiếu công tác\" là gì?",
+        "answer": "Là phiếu cho phép Đơn vị công tác làm việc với ĐD, thiết bị điện."
+    },
+    {
+        "quest": "Người trực tiếp làm công tác quản lý vận hành, kinh doanh, thí nghiệm, sửa chữa, xây dựng điện phải đảm bảo các yêu cầu chung nào sau đây?",
+        "answer": "Có sức khỏe đủ tiêu chuẩn theo quy định của pháp luật về lao động. Phải được huấn luyện, kèm cặp để có trình độ kỹ thuật và an toàn theo yêu cầu của công việc, sau đó phải được kiểm tra lý thuyết và thực hành, đạt yêu cầu mới được giao nhiệm vụ."
+    },
+    {
+        "quest": "Để được giao nhiệm vụ, người mới tuyển dụng phải được đào tạo, sát hạch như thế nào?",
+        "answer": "Phải được huấn luyện, kèm cặp để có trình độ kỹ thuật và an toàn theo yêu cầu của công việc, sau đó phải được kiểm tra lý thuyết và thực hành, đạt yêu cầu mới được giao nhiệm vụ."
+    },
+    {
+        "quest": "Khi làm việc trên cao, thực hiện việc nào là đúng?",
+        "answer": "Cả 2 đáp án trên đều đúng"
+    },
+    {
+        "quest": "Nhân viên đơn vị công tác có trách nhiệm nào dưới đây?",
+        "answer": "Chỉ được làm việc trong phạm vi cho phép. Không được tự ý mở rộng phạm vi làm việc, vào các vùng cấm vào hoặc các vùng có nguy cơ xảy ra tai nạn đã được cảnh báo trước đó."
+    },
+    {
+        "quest": "Không làm việc trên cao ngoài trời như làm việc trên giàn giáo cao, ống khói, đài nước, cột tháp, trụ hoặc dầm cầu, mái nhà 2 tầng trở lên trong trường hợp nào?",
+        "answer": "Giông bão có gió từ cấp 5 trở lên."
+    },
+    {
+        "quest": "Thời hạn thí nghiệm định kỳ sào thao tác cách điện cao áp là bao nhiêu?",
+        "answer": "12 tháng."
+    },
+    {
+        "quest": "Khi cứu nạn nhân bị điện giật đang chạm vào mạch điện cao áp thì người cứu nạn nhân phải thực hiện nội dung nào?",
+        "answer": "Mang ủng, găng tay cách điện và dùng sào cách điện để gạt hoặc đẩy nạn nhân ra khỏi mạch điện."
+    },
+    {
+        "quest": "Phương pháp cứu chữa có hiệu quả phổ biến nhất hiện nay ngay sau khi nạn nhân được tách khỏi mạch điện, đó là?",
+        "answer": "Phương pháp hồi sinh tổng hợp"
+    },
+    {
+        "quest": "Thời hạn thí nghiệm định kỳ găng tay cách điện hạ áp là bao nhiêu?",
+        "answer": "6 tháng."
+    },
+    {
+        "quest": "Theo quy định chung, để chuẩn bị nơi làm việc khi cắt điện một phần hay cắt điện hoàn toàn, phải thực hiện các biện pháp kỹ thuật theo trình tự nào sau đây là đúng? 1- Đặt nối đất. 2- Kiểm tra không còn điện. 3- Cắt điện và thực hiện các biện pháp ngăn chặn có điện trở lại nơi làm việc. 4- Treo biển báo, tín hiệu. Đặt rào chắn, căng dây (nếu cần thiết).",
+        "answer": "3 - 2 - 1 - 4."
+    },
+    {
+        "quest": "Khi sử dụng thang di động để làm việc trên cao, thực hiện như thế nào là sai?",
+        "answer": "Đứng trên thang để dịch chuyển từ vị trí này sang vị trí khác."
+    },
+    {
+        "quest": "Khi thực hiện thao tác thiết bị điện nhất thứ cần bao nhiêu người?",
+        "answer": "Đều phải có 02 (hai) người phối hợp thực hiện: 01 (một) người giám sát và 01 (một) người thao tác trực tiếp."
+    },
+    {
+        "quest": "Chỉ được thao tác thiết bị đóng cắt trên cột với cấp điện áp đến 35 kV bằng sào cách điện khi điều kiện khoảng cách từ phần dẫn điện thấp nhất của các thiết bị điện này đến người thao tác không nhỏ hơn?",
+        "answer": "3 m."
+    },
+    {
+        "quest": "Cắt điện và thực hiện các biện pháp ngăn chặn có điện trở lại nơi làm việc phải thực hiện những nội dung nào sau đây?",
+        "answer": "Cả 3 đáp án đều đúng"
+    },
+    {
+        "quest": "Khi làm việc ở nhiều vị trí trên một đoạn đường dây không có nhánh rẽ và đi bên cạnh (song song) hoặc giao chéo với đường dây cao áp đang có điện. Khoảng cách xa nhất của hai bộ nối đất không lớn hơn?",
+        "answer": "0,5 km."
+    },
+    {
+        "quest": "Trong các trường hợp sau, trình tự thao tác đặt và tháo nối đất cao áp thế nào là đúng nhất?",
+        "answer": "Phải đấu đầu dây nối đất với đất trước, sau đó dùng sào và găng cách điện để lắp đầu còn lại vào thiết bị, đường dây. Tháo nối đất làm theo trình tự ngược lại."
+    },
+    {
+        "quest": "Nếu thấy các điều kiện đảm bảo an toàn khi làm việc chưa đủ và đúng, Nhân viên đơn vị công tác phải làm gì?",
+        "answer": "Phải báo cáo ngay với người chỉ huy trực tiếp để xem xét giải quyết."
+    },
+    {
+        "quest": "Khi làm việc trên cao được phép mang theo người những dụng cụ gì?",
+        "answer": "Được mang theo người những dụng cụ nhẹ như kìm, tuốc-nơ-vít, cờ-lê, mỏ-lết, búa con nhưng phải đựng trong túi đựng đồ chuyên dùng."
+    },
+    {
+        "quest": "Nghiêm cấm làm việc trên cao đối với những trường hợp nào sau đây?",
+        "answer": "Những người đã sử dụng các chất kích thích, đồ uống có cồn."
+    },
+    {
+        "quest": "Trong quá trình sử dụng thiết bị nâng hành vi nào sau đây không được phép?",
+        "answer": "Nâng, hạ và chuyển tải khi có người đứng ở trên tải."
+    },
+    {
+        "quest": "Kết thúc công việc, nếu đã có lệnh tháo nối đất thì?",
+        "answer": "Cấm người tham gia thực hiện công việc tự ý vào nơi làm việc và tiếp xúc với thiết bị để làm bất cứ việc gì."
+    },
+    {
+        "quest": "Máy biến áp đang vận hành, cho phép thực hiện những công việc nào sau đây?",
+        "answer": "Lấy mẫu dầu máy biến áp (Chú ý kiểm tra nối đất vỏ máy trước)."
+    },
+    {
+        "quest": "Khi làm việc trên đường dây 22 kV đang vận hành, nhân viên đơn vị công tác sử dụng các trang bị, dụng cụ cho làm việc có điện, thì khoảng cách cho phép nhỏ nhất đối với thân thể của nhân viên đơn vị công tác đến dây dẫn điện phải đảm bảo?",
+        "answer": "0,6 m."
+    },
+    {
+        "quest": "Trước khi bắt đầu công việc, một nhân viên trong đội công tác có biểu hiện bất thường về tâm lý, sức khoẻ không đảm bảo, Người chỉ huy trực tiếp xử lý như thế nào?",
+        "answer": "Xem xét tình trạng tâm lý, sức khoẻ của nhân viên để phân công công việc phù hợp. Nếu xét thấy nhân viên đó sẽ khó khăn khi thực hiện công việc thì không để nhân viên đó tham gia công việc."
+    },
+    {
+        "quest": "Người lao động có bậc an toàn điện 4/5 được phép làm những phần công việc nào?",
+        "answer": "Làm việc trực tiếp với đường dây điện, thiết bị điện cao áp đang mang điện. Chỉ huy trực tiếp, cho phép đơn vị công tác vào làm việc, giám sát đơn vị công tác làm việc trên đường dây dẫn điện, thiết bị điện."
+    },
+    {
+        "quest": "Các biện pháp cần áp dụng ngay để cứu chữa nạn nhân sau khi tách người bị điện giật ra khỏi mạch điện (nạn nhân mất tri giác)?",
+        "answer": "Đưa nạn nhân ra chỗ thoáng khí, nới rộng quần, áo, thắt lưng, moi rớt rãi trong mồm; đặt nạn nhân nằm nghiêng, ma sát toàn thân cho nóng lên và mời y, bác sỹ đến để chăm sóc."
+    },
+    {
+        "quest": "Khi cách ly thiết bị để làm công việc sửa chữa, phần thiết bị tiến hành công việc cần phải?",
+        "answer": "Cách ly khỏi hệ thống từ mọi phía bằng cách đóng các van cách ly, mở các van xả đọng, xả khí; cắt nguồn lực, nguồn điều khiển các van; các đồng hồ chỉ thị đã chỉ đúng trạng thái."
+    },
+    {
+        "quest": "Khảo sát, lập biên bản hiện trường, lập phương án thi công và biện pháp an toàn để đăng ký công tác, đơn vị công tác phải thực hiện theo những quy định nào sau đây?",
+        "answer": "Phải chủ trì và phối hợp với đơn vị quản lý vận hành để tổ chức khảo sát, lập biên bản hiện trường với sự tham gia đầy đủ của các đơn vị quản lý vận hành có liên quan. Có thể mời thêm cấp điều độ có quyền điều khiển tham gia (nếu cần thiết)."
+    },
+    {
+        "quest": "Việc tiếp nhận nơi làm việc do Người chỉ huy trực tiếp bàn giao khi Đơn vị công tác kết thúc công việc; kiểm tra nội dung công việc, nơi làm việc, ký khóa phiếu công tác và thông báo cho các đơn vị liên quan?",
+        "answer": "Người cho phép."
+    },
+    {
+        "quest": "Trách nhiệm của người giám sát an toàn điện phải như thế nào?",
+        "answer": "Cả 3 đáp án đều đúng"
+    },
+    {
+        "quest": "Khi cắt tụ điện cao áp để sửa chữa, thực hiện như thế nào là đúng?",
+        "answer": "Phải phóng điện (xả điện tích) các tụ điện theo quy định, quy trình của đơn vị quản lý vận hành."
+    },
+    {
+        "quest": "Người cấp phiếu công tác là người nào sau đây?",
+        "answer": "Người của đơn vị quản lý vận hành được giao nhiệm vụ."
+    },
+    {
+        "quest": "Yêu cầu đảm bảo về an toàn khi làm việc gần nơi có điện là công việc?",
+        "answer": "Phải áp dụng các biện pháp kỹ thuật hoặc các biện pháp tổ chức để đề phòng người và phương tiện, dụng cụ làm việc đến phần có điện với khoảng cách nhỏ hơn khoảng cách an toàn cho phép."
+    },
+    {
+        "quest": "Thanh cái, thiết bị điện tại nhà máy, trạm điện cho phép không cần nối đất di động nếu đủ điều kiện?",
+        "answer": "Cả 3 đáp án đều đúng"
+    },
+    {
+        "quest": "Ở TBĐ cấp điện áp đến 22kV, rào chắn tạm thời bằng vật liệu cách điện được chạm vào phần có điện. Khi làm rào chắn loại này phải thực hiện dưới sự giám sát trực tiếp của người có bậc an toàn?",
+        "answer": "Bậc 5."
+    },
+    {
+        "quest": "Đơn vị công tác phải gửi giấy đăng ký công tác đến đơn vị nào?",
+        "answer": "Đơn vị quản lý vận hành."
+    },
+    {
+        "quest": "Khi làm việc tại một công trình điện lực có nhiều Đơn vị công tác khác nhau thì việc thực hiện biện pháp kỹ thuật an toàn tại nơi làm việc của các đơn vị công tác được thực hiện như thế nào?",
+        "answer": "Mỗi Đơn vị công tác phải thực hiện biện pháp kỹ thuật an toàn riêng biệt."
+    },
+    {
+        "quest": "Bàn giao trao trả nơi làm việc, khóa phiếu công tác để đóng điện trở lại là trách nhiệm của ai?",
+        "answer": "Người chỉ huy trực tiếp và người cho phép."
+    },
+    {
+        "quest": "Trách nhiệm của đơn vị Điều độ trong Biện pháp tổ chức thực hiện công việc?",
+        "answer": "Cả 3 đáp án đều đúng"
+    },
+    {
+        "quest": "Trao trả nơi làm việc, ký xác nhận ở Mục 6 (mục Kết thúc công tác) của Phiếu công tác theo thứ tự?",
+        "answer": "Người chỉ huy trực tiếp→Người cho phép→Người cấp phiếu."
+    },
+    {
+        "quest": "Theo Quy trình an toàn thủy, cơ, nhiệt hóa trong Tập đoàn Điện lực Việt Nam thì quy định thời gian lưu trữ phiếu công tác là bao nhiêu ngày?",
+        "answer": "Sau khi hoàn thành công việc, phiếu công tác phải lưu giữ ít nhất 03 tháng (kể cả những phiếu đã cấp nhưng không thực hiện). Nếu để xảy ra sự cố hoặc tai nạn thì các phiếu công tác hoặc lệnh công tác liên quan cùng các tài liệu khác theo quy định phải được lưu trong hồ sơ điều tra sự cố, tai nạn lao động của đơn vị."
     }
 
 ]
